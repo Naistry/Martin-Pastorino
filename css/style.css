@@ -65,8 +65,10 @@ section.menu{
 .menu__header{
     display: flex;
     align-items: center;
- 
+    
 }
+
+
 .menu__list{
 
     display: flex;
@@ -84,6 +86,7 @@ section.menu{
 .menu__list__item a:hover{
     color: #2A7AE4;
 }
+
 
 /*Sección Title*/
 
@@ -151,6 +154,7 @@ section.about{
     flex-direction: column;
     justify-content: end;
     align-items: center;
+    text-align: center;
 }
 .about__paragraph{
     line-height: 2rem;
@@ -513,9 +517,13 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Mobile*/
-@media (max-width: 425px) {
+@media (max-width: 520px) {
 
 /*Menu*/
+.menu__container{
+    flex-direction: column;
+}
+
 
 /*Titulo*/
 
